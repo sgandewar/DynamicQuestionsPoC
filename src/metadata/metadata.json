@@ -1,0 +1,23 @@
+{
+    "childrens" : [
+      {
+          "selector": "Personal1",
+          "type": "welcomecomponent",
+          "questionText":"Are you looking to buy a home or refinance an existing loan?",
+          "imageName":"handshake.png",
+          "button1Text":"Purchase", 
+          "button2Text":"Refinance"          
+      },
+      {
+          "selector": "Personal2",
+          "type": "addresscomponent",
+          "imageName":"iconhome.png",
+          "questionText":"Have you identified the property that you are intersted in?",
+          "labelText":"Zip Code", 
+          "txtbox1required" :"true",
+          "labelText2": "Street Address", 
+          "txtbox2required" :"false",
+          "index":"0"
+      }]
+
+}

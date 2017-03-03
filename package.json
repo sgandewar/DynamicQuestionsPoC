@@ -1,0 +1,37 @@
+{
+    "name": "dynamic-questions",
+    "version": "1.0.0",
+    "author": "Sagar Gandewar",
+    "description": "Package for the SuperApp sample application",
+    "scripts": {
+        "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+        "tsc": "tsc",
+        "tsc:w": "tsc -w",
+        "lite": "lite-server",
+        "typings": "typings",
+        "postinstall": "typings install"
+    },
+    "license": "ISC",
+    "dependencies": {
+    "@angular/common": "~2.4.0",
+    "@angular/compiler": "~2.4.0",
+    "@angular/core": "~2.4.0",
+    "@angular/forms": "~2.4.0",
+    "@angular/http": "~2.4.0",
+    "@angular/platform-browser": "~2.4.0",
+    "@angular/platform-browser-dynamic": "~2.4.0",
+    "@angular/router": "~3.4.0",
+    "angular-in-memory-web-api": "~0.2.4",
+    "systemjs": "0.19.40",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.1",
+    "zone.js": "^0.7.4"
+    },
+    "devDependencies": {
+        "concurrently": "^2.0.0",
+        "lite-server": "^2.2.0",
+        "typescript": "^1.8.9",
+        "typings": "^0.7.11"
+    },
+    "repository": {}
+}
